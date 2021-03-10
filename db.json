@@ -1,16 +1,72 @@
 {
-  "posts":[
+  "users": [
     {
-      "id" : 0,
-      "title": "First post!",
-      "content" : "My first content!"
+      "id": 1,
+      "name": "Aslan"
+    },
+    {
+      "id": 2,
+      "name": "Jonh"
+    },
+    {
+      "id": 3,
+      "name": "Jessica"
+    },
+    {
+      "id": 4,
+      "name": "Natasha"
+    },
+    {
+      "id": 5,
+      "name": "Smit"
+    },
+    {
+      "id": 6,
+      "name": "Sergey"
     }
   ],
-  "comments" : [
+  "messages": [
     {
-      "id": 0,
-      "content": "Wow such content!",
-      "username": "zero_cool"
+      "id": 1,
+      "author": "Aslan",
+      "messageTo": "Jonh",
+      "message": "Hello Jonh"
+    },
+    {
+      "id": 2,
+      "author": "Jonh",
+      "messageTo": "Aslan",
+      "message": "Hello  Aslan"
+    },
+    {
+      "id": 3,
+      "author": "Jessica",
+      "messageTo": "Natasha",
+      "message": "Hello  Natasha"
+    },
+    {
+      "id": 4,
+      "author": "Natasha",
+      "messageTo": "Jessica",
+      "message": "Hello  Jessica"
+    },
+    {
+      "id": 5,
+      "author": "Damien",
+      "messageTo": "Natasha",
+      "message": "Hello natasha"
+    },
+    {
+      "id": 6,
+      "author": "Smit",
+      "messageTo": "Aslan",
+      "message": "Hello Aslan im Smit"
+    },
+    {
+      "id": 7,
+      "author": "Smit",
+      "messageTo": "Aslan",
+      "message": "How are You"
     }
   ]
 }
